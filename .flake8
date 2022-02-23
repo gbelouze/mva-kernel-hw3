@@ -9,6 +9,7 @@ per-file-ignores =
     __init__.py:F401
 exclude =
     .git,
+    reports,
     __pycache__,
     setup.py,
     build,

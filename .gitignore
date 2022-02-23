@@ -1,6 +1,16 @@
 # Notebooks are tracked in versionable files with jupytext
 *.ipynb
 
+# Latex build files
+_minted-report/
+reports/*.log
+reports/*.out
+reports/*.pdf
+reports/*.synctex.gz
+reports/*.fls
+reports/*.fdb_latexmk
+reports/*.aux
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
